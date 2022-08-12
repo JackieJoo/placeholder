@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2018",
+    "composite": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./"
+  }
+}
