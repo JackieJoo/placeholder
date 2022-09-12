@@ -2,10 +2,10 @@ FROM node:16-alpine
 
 WORKDIR /app
 
-COPY *.json /app
+COPY *.json /app/
 RUN npm ci
 
-COPY . /app
+COPY . /app/
 RUN npm run build
 
 EXPOSE 8080
